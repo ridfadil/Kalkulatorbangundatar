@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fadil.rumusbangundatar.MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:height="0dp"
+        android:text="@string/persegi"
+        android:id="@+id/persegi"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:background="#65dfb9"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/PersegiPanjang"
+        android:id="@+id/persegipanjang"
+        android:textSize="30sp"
+        android:background="#65df77"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/Segitiga"
+        android:id="@+id/segitiga"
+        android:textSize="30sp"
+        android:background="#acdf65"/>
+
+</LinearLayout>
